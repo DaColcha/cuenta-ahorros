@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="orden y nomenclatura">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="Pruebas de depositar y retirar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java" afterDir="false" />
+>>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,31 +25,100 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2bV301ZvuDE8Mwqo8nxwyiJEXd0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Repositorios-Sexto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Repositorios-Sexto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
+<<<<<<< HEAD
 }</component>
   <component name="RunManager" selected="JUnit.CuentaAhorrosTest.test_puede_retirar_valido">
+=======
+}]]></component>
+  <component name="RunManager" selected="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Invalido">
+    <configuration name="CuentaAhorrosTest.testCuentaAhorrosDepositar_Invalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorrosDepositar_Invalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.testCuentaAhorrosDepositar_Valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorrosDepositar_Valido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.testCuentaAhorrosRetirar_Invalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorrosRetirar_Invalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.testCuentaAhorrosRetirar_Valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorrosRetirar_Valido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
     <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CuentaDeAhorros" />
       <extension name="coverage">
@@ -60,6 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CuentaDeAhorros" />
       <extension name="coverage">
@@ -131,6 +207,15 @@
         <item itemvalue="JUnit.CuentaAhorrosTest.test_puede_retirar_invalido" />
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear" />
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear1" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Invalido" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosDepositar_Valido" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosDepositar_Invalido" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Valido" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear" />
+>>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +227,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706286196880</updated>
-      <workItem from="1706286202157" duration="2388000" />
+      <workItem from="1706286202157" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitignore">
       <option name="closed" value="true" />
@@ -192,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706288093171</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Pruebas de depositar y retirar">
+      <option name="closed" value="true" />
+      <created>1706288798314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706288798314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +296,28 @@
     <MESSAGE value="Upload advance" />
     <MESSAGE value="Pruebas para identificar categoría VIP" />
     <MESSAGE value="orden y nomenclatura" />
-    <option name="LAST_COMMIT_MESSAGE" value="orden y nomenclatura" />
+    <MESSAGE value="Pruebas de depositar y retirar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pruebas de depositar y retirar" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
