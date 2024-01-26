@@ -169,6 +169,7 @@ public class CuentaAhorrosTest {
         assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
     }
 
+    @Test
     public void test_incrementar_Antiguedad2() throws ExcepcionCuentaNoCreada {
         double monto = 190;
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);

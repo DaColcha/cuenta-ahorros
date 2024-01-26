@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="orden y nomenclatura">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
     <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="Pruebas de depositar y retirar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/modelo/CuentaAhorros.java" afterDir="false" />
->>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +43,6 @@
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
-<<<<<<< HEAD
-}</component>
-  <component name="RunManager" selected="JUnit.CuentaAhorrosTest.test_puede_retirar_valido">
-=======
 }]]></component>
   <component name="RunManager" selected="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Invalido">
     <configuration name="CuentaAhorrosTest.testCuentaAhorrosDepositar_Invalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -118,7 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
->>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
     <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CuentaDeAhorros" />
       <extension name="coverage">
@@ -135,79 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CuentaDeAhorros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
-      <option name="METHOD_NAME" value="testCuentaAhorros_crear1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaAhorrosTest.test_puede_retirar_invalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CuentaDeAhorros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
-      <option name="METHOD_NAME" value="test_puede_retirar_invalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaAhorrosTest.test_puede_retirar_valida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CuentaDeAhorros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
-      <option name="METHOD_NAME" value="test_puede_retirar_valida" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaAhorrosTest.test_puede_retirar_valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CuentaDeAhorros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
-      <option name="METHOD_NAME" value="test_puede_retirar_valido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CuentaAhorrosTest.test_puede_retirar_valido" />
-        <item itemvalue="JUnit.CuentaAhorrosTest.test_puede_retirar_valida" />
-        <item itemvalue="JUnit.CuentaAhorrosTest.test_puede_retirar_invalido" />
-        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear" />
-        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear1" />
-=======
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Invalido" />
@@ -215,7 +132,6 @@
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosDepositar_Invalido" />
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorrosRetirar_Valido" />
         <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear" />
->>>>>>> afabb8e0810e10ec53a4148a3a9b706f7acdadbe
       </list>
     </recent_temporary>
   </component>
