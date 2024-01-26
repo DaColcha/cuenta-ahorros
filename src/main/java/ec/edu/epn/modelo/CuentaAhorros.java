@@ -41,14 +41,15 @@ public class CuentaAhorros {
     public void depositar(double cantidad) {
         if (cantidad > 0) {
             this.monto += cantidad;
+            identificarCategoria();
         }
     }
 
     public void retirar(double cantidad) {
         if (this.monto >= cantidad && puedeRetirar()) {
             this.monto -= cantidad;
+            identificarCategoria();
         }
-        identificarCategoria();
     }
 
     private void identificarCategoria() {

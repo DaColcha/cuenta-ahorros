@@ -38,7 +38,60 @@ public class CuentaAhorrosTest {
         assertEquals(resultadoEsperado, resultadoObtenido.getMessage());
     }
 
-    @Test //Test para validar el constructor
+    /*
+    * PRUEBAS PARA DEPOSITAR
+    */
+    @Test
+    public void testCuentaAhorrosDepositar_Invalido() throws ExcepcionCuentaNoCreada {
+        CuentaAhorros cuentaAhorros = new CuentaAhorros(180);
+        cuentaAhorros.depositar(-1);
+        assertEquals(180, cuentaAhorros.getMonto());
+    }
+
+    @Test
+    public void testCuentaAhorrosDepositar_Valido() throws ExcepcionCuentaNoCreada {
+        CuentaAhorros cuentaAhorros = new CuentaAhorros(180);
+        cuentaAhorros.depositar(10);
+        assertEquals(190, cuentaAhorros.getMonto());
+    }
+
+    /*
+    * PRUEBAS PARA RETIRAR
+     */
+    @Test
+    public void testCuentaAhorrosRetirar_Valido() throws ExcepcionCuentaNoCreada {
+        CuentaAhorros cuentaAhorros = new CuentaAhorros(3000);
+        for (int i = 0; i < 4; i ++) {
+            cuentaAhorros.incrementarAntiguedad();
+        }
+        cuentaAhorros.retirar(2500);
+        assertEquals(500, cuentaAhorros.getMonto());
+        assertEquals("NORMAL", cuentaAhorros.getCategoria());
+    }
+
+    @Test
+    public void testCuentaAhorrosRetirar_Invalido() throws ExcepcionCuentaNoCreada {
+        CuentaAhorros cuentaAhorros = new CuentaAhorros(3000);
+
+        // No tiene la antiguedad requerida
+        cuentaAhorros.retirar(2500);
+        assertEquals(3000, cuentaAhorros.getMonto());
+
+        // Cantidad mayor al monto de la cuenta
+        for (int i = 0; i < 4; i ++) {
+            cuentaAhorros.incrementarAntiguedad();
+        }
+        cuentaAhorros.retirar(3500);
+        assertEquals(3000, cuentaAhorros.getMonto());
+
+        // No se modifica la categoría de la cuenta
+        assertEquals("VIP", cuentaAhorros.getCategoria());
+    }
+
+    /*
+    * PRUEBAS PARA VERIFICAR CATEGORIA
+    */
+    @Test
     public void test_categoria_normal1() throws ExcepcionCuentaNoCreada {
         double monto = 180; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
@@ -49,9 +102,9 @@ public class CuentaAhorrosTest {
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
     }
 
-    @Test //Test para validar el constructor
+    @Test
     public void test_categoria_normal2() throws ExcepcionCuentaNoCreada {
-        double monto = 2500; //entrada
+        double monto = 2500;
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "NORMAL";
         int antiguedadEsperada = 0;
@@ -62,7 +115,7 @@ public class CuentaAhorrosTest {
 
     @Test
     public void test_categoria_vip1() throws ExcepcionCuentaNoCreada {
-        double monto = 2501; //entrada
+        double monto = 2501;
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "VIP";
         int antiguedadEsperada = 0;
@@ -73,7 +126,7 @@ public class CuentaAhorrosTest {
 
     @Test
     public void test_categoria_vip2() throws ExcepcionCuentaNoCreada {
-        double monto = 3000; //entrada
+        double monto = 3000;
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "VIP";
         int antiguedadEsperada = 0;
