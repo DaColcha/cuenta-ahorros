@@ -4,8 +4,7 @@ package ec.edu.epn.modelo;
 import ec.edu.epn.excepciones.ExcepcionCuentaNoCreada;
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
@@ -81,6 +80,23 @@ public class CuentaAhorrosTest {
         assertEquals(categoriaEsperada, cuentaAhorrosObtenida.getCategoria());
         assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
+    }
+
+    @Test
+    public void test_incrementar_Antiguedad1() throws ExcepcionCuentaNoCreada {
+        double monto = 190;
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        int antiguedadEsperada = 1;
+        cuentaAhorrosObtenida.incrementarAntiguedad();
+        assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
+    }
+
+    public void test_incrementar_Antiguedad2() throws ExcepcionCuentaNoCreada {
+        double monto = 190;
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        int antiguedadAComparar = 0;
+        cuentaAhorrosObtenida.incrementarAntiguedad();
+        //assertFalse(antiguedadAComparar, cuentaAhorrosObtenida.getAntiguedad());
     }
 
 }
