@@ -135,6 +135,14 @@ public class CuentaAhorrosTest {
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
     }
 
+    /*
+     * PRUEBAS PARA VERIFICAR SI SE PUEDE RETIRAR
+     */
+
+    /*
+     * PRUEBAS PARA INCREMENTAR ANTIGUEDAD
+     */
+
     @Test
     public void test_incrementar_Antiguedad1() throws ExcepcionCuentaNoCreada {
         double monto = 190;
@@ -147,9 +155,8 @@ public class CuentaAhorrosTest {
     public void test_incrementar_Antiguedad2() throws ExcepcionCuentaNoCreada {
         double monto = 190;
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
-        int antiguedadAComparar = 0;
         cuentaAhorrosObtenida.incrementarAntiguedad();
-        //assertFalse(antiguedadAComparar, cuentaAhorrosObtenida.getAntiguedad());
+        assertFalse(cuentaAhorrosObtenida.getAntiguedad() == 0);
     }
 
 }
