@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  *
- * @author Marcela
+ * @author Grupo 4
  */
 public class CuentaAhorrosTest {
 
@@ -40,7 +40,7 @@ public class CuentaAhorrosTest {
     }
 
     @Test //Test para validar el constructor
-    public void test_categoría_normal1() throws ExcepcionCuentaNoCreada {
+    public void test_categoria_normal1() throws ExcepcionCuentaNoCreada {
         double monto = 180; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "NORMAL";
@@ -51,7 +51,7 @@ public class CuentaAhorrosTest {
     }
 
     @Test //Test para validar el constructor
-    public void test_categoría_normal2() throws ExcepcionCuentaNoCreada {
+    public void test_categoria_normal2() throws ExcepcionCuentaNoCreada {
         double monto = 2500; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "NORMAL";
@@ -62,7 +62,7 @@ public class CuentaAhorrosTest {
     }
 
     @Test
-    public void test_categoría_vip1() throws ExcepcionCuentaNoCreada {
+    public void test_categoria_vip1() throws ExcepcionCuentaNoCreada {
         double monto = 2501; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "VIP";
@@ -73,7 +73,7 @@ public class CuentaAhorrosTest {
     }
 
     @Test
-    public void test_categoría_vip2() throws ExcepcionCuentaNoCreada {
+    public void test_categoria_vip2() throws ExcepcionCuentaNoCreada {
         double monto = 3000; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "VIP";
