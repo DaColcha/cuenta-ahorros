@@ -139,6 +139,23 @@ public class CuentaAhorrosTest {
      * PRUEBAS PARA VERIFICAR SI SE PUEDE RETIRAR
      */
 
+    @Test
+    public void test_puede_retirar_invalido() throws ExcepcionCuentaNoCreada {
+        double monto = 190;
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        assertEquals(false, cuentaAhorrosObtenida.puedeRetirar());
+    }
+
+    @Test
+    public void test_puede_retirar_valido() throws ExcepcionCuentaNoCreada {
+        double monto = 190;
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        for(int i = 0; i < 5; i++){
+            cuentaAhorrosObtenida.incrementarAntiguedad();
+        }
+        assertEquals(true, cuentaAhorrosObtenida.puedeRetirar());
+    }
+
     /*
      * PRUEBAS PARA INCREMENTAR ANTIGUEDAD
      */
