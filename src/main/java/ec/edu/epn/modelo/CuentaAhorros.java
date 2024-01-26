@@ -64,7 +64,7 @@ public class CuentaAhorros {
     }
 
     public void incrementarAntiguedad() {
-        antiguedad--;
+        antiguedad++;
     }
 
 }

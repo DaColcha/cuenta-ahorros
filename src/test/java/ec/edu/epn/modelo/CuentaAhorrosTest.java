@@ -39,7 +39,11 @@ public class CuentaAhorrosTest {
         assertEquals(resultadoEsperado, resultadoObtenido.getMessage());
     }
 
-    @Test //Test para validar el constructor
+
+    /*
+    * PRUEBAS PARA VERIFICAR CATEGORIA
+    */
+    @Test
     public void test_categoria_normal1() throws ExcepcionCuentaNoCreada {
         double monto = 180; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
@@ -50,7 +54,7 @@ public class CuentaAhorrosTest {
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
     }
 
-    @Test //Test para validar el constructor
+    @Test
     public void test_categoria_normal2() throws ExcepcionCuentaNoCreada {
         double monto = 2500; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
