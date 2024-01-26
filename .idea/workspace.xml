@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="841be6a8-e25b-45db-bb9e-7e01799d4dd4" name="Changes" comment="Upload advance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +32,37 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Repositorios-Sexto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CuentaAhorrosTest.testCuentaAhorros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorros" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,11 +71,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706286196880</updated>
-      <workItem from="1706286202157" duration="116000" />
+      <workItem from="1706286202157" duration="956000" />
     </task>
+    <task id="LOCAL-00001" summary="Update gitignore">
+      <option name="closed" value="true" />
+      <created>1706286398141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706286398141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Upload advance">
+      <option name="closed" value="true" />
+      <created>1706286538265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706286538265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Upload advance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload advance" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java</url>
+          <line>31</line>
+          <properties class="ec.edu.epn.modelo.CuentaAhorrosTest" method="testCuentaAhorros">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

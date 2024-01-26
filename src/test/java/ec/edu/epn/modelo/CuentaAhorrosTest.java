@@ -1,14 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 package ec.edu.epn.modelo;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
+import ec.edu.epn.excepciones.ExcepcionCuentaNoCreada;
+import org.junit.jupiter.api.*;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  *
@@ -33,7 +29,7 @@ public class CuentaAhorrosTest {
     }
 
     @Test //Test para validar el constructor
-    public void testCuentaAhorro1() throws ExcepcionCuentaNoCreada {
+    public void testCuentaAhorros() throws ExcepcionCuentaNoCreada {
         double monto = 180; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
         String categoriaEsperada = "Normal";
@@ -53,3 +49,4 @@ public class CuentaAhorrosTest {
         assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
     }
+}
