@@ -40,8 +40,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="CuentaAhorrosTest.testCuentaAhorros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear">
+    <configuration name="CuentaAhorrosTest.testCuentaAhorros_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CuentaDeAhorros" />
       <extension name="coverage">
         <pattern>
@@ -51,7 +51,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
-      <option name="METHOD_NAME" value="testCuentaAhorros" />
+      <option name="METHOD_NAME" value="testCuentaAhorros_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorros_crear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.testCuentaAhorros_crear1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="testCuentaAhorros_crear1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.test_categoría_vip1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="test_categoría_vip1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaAhorrosTest.test_categoría_vip2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CuentaDeAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.modelo" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.modelo.CuentaAhorrosTest" />
+      <option name="METHOD_NAME" value="test_categoría_vip2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,7 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_crear1" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.testCuentaAhorros_4" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.test_categoría_vip2" />
+        <item itemvalue="JUnit.CuentaAhorrosTest.test_categoría_vip1" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706286196880</updated>
-      <workItem from="1706286202157" duration="956000" />
+      <workItem from="1706286202157" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitignore">
       <option name="closed" value="true" />
@@ -89,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706286538265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Upload advance">
+      <option name="closed" value="true" />
+      <created>1706287178712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706287178712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,12 +181,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ec/edu/epn/modelo/CuentaAhorrosTest.java</url>
-          <line>31</line>
-          <properties class="ec.edu.epn.modelo.CuentaAhorrosTest" method="testCuentaAhorros">
+          <line>42</line>
+          <properties class="ec.edu.epn.modelo.CuentaAhorrosTest" method="test_categoría_normal1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

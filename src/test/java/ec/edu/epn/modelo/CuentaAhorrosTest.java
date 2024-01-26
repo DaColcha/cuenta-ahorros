@@ -5,6 +5,7 @@ import ec.edu.epn.excepciones.ExcepcionCuentaNoCreada;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  *
@@ -28,11 +29,21 @@ public class CuentaAhorrosTest {
     public void tearDown() {
     }
 
+    @Test
+    public void testCuentaAhorros_crear() throws ExcepcionCuentaNoCreada {
+        double monto = 179;
+        String resultadoEsperado = "La cuenta no se puede crear con menos de $180";
+        ExcepcionCuentaNoCreada resultadoObtenido
+                = assertThrows(ExcepcionCuentaNoCreada.class, () -> new CuentaAhorros(monto));
+
+        assertEquals(resultadoEsperado, resultadoObtenido.getMessage());
+    }
+
     @Test //Test para validar el constructor
-    public void testCuentaAhorros() throws ExcepcionCuentaNoCreada {
+    public void test_categoría_normal1() throws ExcepcionCuentaNoCreada {
         double monto = 180; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
-        String categoriaEsperada = "Normal";
+        String categoriaEsperada = "NORMAL";
         int antiguedadEsperada = 0;
         assertEquals(categoriaEsperada, cuentaAhorrosObtenida.getCategoria());
         assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
@@ -40,13 +51,36 @@ public class CuentaAhorrosTest {
     }
 
     @Test //Test para validar el constructor
-    public void testCuentaAhorro2() throws ExcepcionCuentaNoCreada {
-        double monto = 181; //entrada
+    public void test_categoría_normal2() throws ExcepcionCuentaNoCreada {
+        double monto = 2500; //entrada
         CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
-        String categoriaEsperada = "Normal";
+        String categoriaEsperada = "NORMAL";
         int antiguedadEsperada = 0;
         assertEquals(categoriaEsperada, cuentaAhorrosObtenida.getCategoria());
         assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
         assertEquals(monto, cuentaAhorrosObtenida.getMonto());
     }
+
+    @Test
+    public void test_categoría_vip1() throws ExcepcionCuentaNoCreada {
+        double monto = 2501; //entrada
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        String categoriaEsperada = "VIP";
+        int antiguedadEsperada = 0;
+        assertEquals(categoriaEsperada, cuentaAhorrosObtenida.getCategoria());
+        assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
+        assertEquals(monto, cuentaAhorrosObtenida.getMonto());
+    }
+
+    @Test
+    public void test_categoría_vip2() throws ExcepcionCuentaNoCreada {
+        double monto = 3000; //entrada
+        CuentaAhorros cuentaAhorrosObtenida = new CuentaAhorros(monto);
+        String categoriaEsperada = "VIP";
+        int antiguedadEsperada = 0;
+        assertEquals(categoriaEsperada, cuentaAhorrosObtenida.getCategoria());
+        assertEquals(antiguedadEsperada, cuentaAhorrosObtenida.getAntiguedad());
+        assertEquals(monto, cuentaAhorrosObtenida.getMonto());
+    }
+
 }
