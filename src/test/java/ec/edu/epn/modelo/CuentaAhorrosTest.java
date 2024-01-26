@@ -62,7 +62,7 @@ public class CuentaAhorrosTest {
     @Test
     public void testCuentaAhorrosRetirar_Valido() throws ExcepcionCuentaNoCreada {
         CuentaAhorros cuentaAhorros = new CuentaAhorros(3000);
-        for (int i = 0; i < 4; i ++) {
+        for (int i = 0; i < 5; i ++) {
             cuentaAhorros.incrementarAntiguedad();
         }
         cuentaAhorros.retirar(2500);
@@ -79,7 +79,7 @@ public class CuentaAhorrosTest {
         assertEquals(3000, cuentaAhorros.getMonto());
 
         // Cantidad mayor al monto de la cuenta
-        for (int i = 0; i < 4; i ++) {
+        for (int i = 0; i < 5; i ++) {
             cuentaAhorros.incrementarAntiguedad();
         }
         cuentaAhorros.retirar(3500);

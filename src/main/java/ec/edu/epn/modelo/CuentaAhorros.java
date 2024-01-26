@@ -48,8 +48,8 @@ public class CuentaAhorros {
     public void retirar(double cantidad) {
         if (this.monto >= cantidad && puedeRetirar()) {
             this.monto -= cantidad;
-            identificarCategoria();
         }
+        identificarCategoria();
     }
 
     private void identificarCategoria() {
